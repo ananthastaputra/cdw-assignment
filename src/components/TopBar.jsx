@@ -1,5 +1,7 @@
 import React from 'react';
 import './TopBar.css'; // You can define styles in this CSS file
+import SearchIcon from './SearchIcon';
+import { FaSearch } from "react-icons/fa";
 
 const TopBar = () => {
   return (
@@ -9,7 +11,9 @@ const TopBar = () => {
       </div>
       <div className="right">
         <input type="text" placeholder="Search..." />
-        <button><i className="fa fa-search"></i></button>
+        <button>
+            <FaSearch fill='black'/>
+        </button>
       </div>
     </div>
   );
