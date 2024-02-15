@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import Sections from "./components/Sections";
+import TopBar from "./components/TopBar";
 
 
 const Layout = () => {
@@ -20,7 +21,9 @@ const Layout = () => {
     return (
         <>
             <div>
-                <div>topbar</div>
+                <div>
+                    <TopBar />
+                </div>
                 <div>
                     <Sections data = {data} />    
                 </div>

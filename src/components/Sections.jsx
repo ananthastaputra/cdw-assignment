@@ -2,9 +2,6 @@ import React, {useState,useEffect} from "react";
 import "./cardContainer.css"
 import Card from "./cards/CardsFile";
 
-
-
-
 const Sections = (props) => {
     const {data} = props;
     
